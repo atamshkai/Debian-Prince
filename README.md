@@ -30,7 +30,7 @@ rm -rf ~/zsh
 chsh -s zsh 
 ```
 
-#### For Sound, 
+### For Sound, 
 ``` 
 echo "killall pulseaudio &>/dev/null" >>~/.zshrc 
 ``` 
@@ -38,14 +38,14 @@ echo "killall pulseaudio &>/dev/null" >>~/.zshrc
 echo "pulseaudio --start --exit-idle-time=-1; pacmd load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" >>~/.zshrc 
 ```
 
-#### Give Storage Permission
+### Give Storage Permission
 ``` 
 termux-setup-storage 
 ```
 
-#### Install Debian Proot-Distro
+### Install Debian Proot-Distro
 
-#### Login To Debian Distro
+### Login To Debian Distro
 ```
 proot-distro login debian --shared-tmp
 ```
@@ -76,7 +76,7 @@ tar -xvJf prince.tar.xz
 mv prince.tar.xz /sdcard/download
 ```
 
-#### Restart Termux
+### Restart Termux
 ```
 exit
 ```
@@ -84,7 +84,7 @@ exit
 exit
 ```
 
-#### Open Termux Again & Start Termux-X11
+### Open Termux Again & Start Termux-X11
 ```
 termux-x11 :0 &
 ```
@@ -120,7 +120,7 @@ pkill -f com.termux.x11
 ### Termux 
 [Download](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_universal.apk) 
 
-## Termux-x11 
+### Termux-x11 
 [Download](https://github.com/termux/termux-x11/releases) 
 
 ## Termux-x11 Custom Resolution
