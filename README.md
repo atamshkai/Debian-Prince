@@ -14,8 +14,10 @@ Disable phantom process killer.
 # To Do
 
 ### Install zsh & some packges 
+
+#### You can skip these steps if you've already install them
 ``` 
-pkg up -y && pkg i -y proot-distro pulseaudio zsh wget
+pkg up -y && pkg i -y x11-repo proot-distro pulseaudio zsh wget termux-x11-nightly
 ```
 ```
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
