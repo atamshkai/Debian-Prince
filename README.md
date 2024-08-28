@@ -73,7 +73,7 @@ chsh -s /usr/bin/zsh
 
 ### Download Prince's Desktop[Usa Vpn]
 ```
-cd $HOME;wget https://archive.org/download/prince_202408/prince.tar.xz
+cd $HOME;wget https://archive.org/download/debain-prince/prince.tar.xz
 ```
 
 ### Unzip File
@@ -84,6 +84,11 @@ tar -xvJf ~/prince.tar.xz
 ### Move Zip File To Download
 ```
 mv ~/prince.tar.xz /sdcard/download
+```
+
+### Link To Phone Storage
+```
+ln -s /sdcard ~/sdcard
 ```
 
 ### Restart Distro
@@ -108,10 +113,10 @@ proot-distro login debian --shared-tmp
 
 ### Add additional commands To Bin
 ```
-echo "export PULSE_SERVER=127.0.0.1;env DISPLAY=:0 dbus-launch --exit-with-session xfce4-session &>/dev/null" >>/usr/local/bin/xfc
+echo "export PULSE_SERVER=127.0.0.1;env DISPLAY=:0 dbus-launch --exit-with-session xfce4-session &>/dev/null" >>/usr/local/bin/xfce
 ```
 ```
-echo "xfc &>/dev/null" >>/usr/local/bin/xfce
+echo "xfce &>/dev/null" >>/usr/local/bin/prince
 ```
 
 ### Give Permission To Commands
@@ -121,7 +126,7 @@ chmod +x /usr/local/bin/*
 
 ### Start Debian Prince Desktop
 ```
-xfce
+prince
 ```
 
 ### Stop Desktop
