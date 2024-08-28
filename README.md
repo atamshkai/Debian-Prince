@@ -44,6 +44,9 @@ termux-setup-storage
 ```
 
 ### Install Debian Proot-Distro
+```
+proot-distro install debian
+```
 
 ### Login To Debian Distro
 ```
