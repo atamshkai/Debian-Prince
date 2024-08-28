@@ -63,6 +63,17 @@ apt install -y xfce4 xfce4-terminal chromium firefox-esr parole audacious pulsea
 
 ### Download Prince's Desktop
 ```
+wget https://archive.org/download/prince_202408/prince.tar.xz
+```
+
+### Unzip File
+```
+tar -xvJf prince.tar.xz
+```
+
+### Move Zip File To Download
+```
+mv prince.tar.xz /sdcard/download
 ```
 
 #### Restart Termux
