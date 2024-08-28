@@ -13,7 +13,7 @@ Disable phantom process killer.
 
 # To Do
 
-### Install zsh 
+### Install zsh & some packges 
 ``` 
 pkg up -y && pkg i -y proot-distro pulseaudio zsh wget
 ```
