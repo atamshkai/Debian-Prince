@@ -135,3 +135,5 @@ pkill -f com.termux.x11
 
 ## Termux-x11 Custom Resolution
 1920:1080
+
+[Contact](https://t.me/atamshkai) 
