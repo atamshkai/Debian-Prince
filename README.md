@@ -61,28 +61,35 @@ apt-get update;apt-get full-upgrade -y
 apt install -y apt-utils dialog nano wget
 ```
 ```
-apt install -y xfce4 xfce4-terminal chromium firefox-esr parole audacious pulseaudio alsa-utils pulseaudio telegram-desktop
+apt install -y zsh xfce4 xfce4-terminal chromium firefox-esr parole audacious pulseaudio alsa-utils telegram-desktop
 ```
 
-### Download Prince's Desktop
+### Change Shell
 ```
-wget https://archive.org/download/prince_202408/prince.tar.xz
+chsh -s /usr/bin/zsh
+```
+
+### Download Prince's Desktop[Usa Vpn]
+```
+cd $HOME;wget https://archive.org/download/prince_202408/prince.tar.xz
 ```
 
 ### Unzip File
 ```
-tar -xvJf prince.tar.xz
+tar -xvJf ~/prince.tar.xz
 ```
 
 ### Move Zip File To Download
 ```
-mv prince.tar.xz /sdcard/download
+mv ~/prince.tar.xz /sdcard/download
 ```
 
-### Restart Termux
+### Restart Distro
 ```
 exit
 ```
+
+### Restart Termux
 ```
 exit
 ```
