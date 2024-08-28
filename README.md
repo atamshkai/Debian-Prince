@@ -23,10 +23,7 @@ pkg up -y && pkg i -y x11-repo proot-distro pulseaudio zsh wget termux-x11-night
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
 ```
 ```
-tar -xvJf zsh.tar.xz && mv ~/zsh/.* ~/
-```
-```
-rm -rf ~/zsh
+tar -xvJf zsh.tar.xz
 ```
 ```
 chsh -s zsh 
