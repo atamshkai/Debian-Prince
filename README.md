@@ -73,6 +73,11 @@ chsh -s /usr/bin/zsh
 cd $HOME;wget https://archive.org/download/debain-prince/prince.tar.xz
 ```
 
+#### Download From Github
+```
+wget https://github.com/atamshkai/Debian-Prince/releases/download/Prince/prince.tar.xz
+```
+
 ### Unzip File
 ```
 tar -xvJf ~/prince.tar.xz
