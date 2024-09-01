@@ -136,13 +136,11 @@ prince
 pkill -f com.termux.x11
 ```
 
-### Termux 
-[Download](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_universal.apk) 
+## Termux 
+[Download](https://github.com/termux/termux-app/releases/tag/v0.118.1) 
 
-### Termux-x11 
-[Download](https://github.com/termux/termux-x11/releases) 
+## Termux-x11 
+[Download](https://github.com/termux/termux-x11/releases/tag/nightly) 
 
 ## Termux-x11 Custom Resolution
 1920:1080
-
-[Contact me](https://t.me/atamshkai) 
